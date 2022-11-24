@@ -1,0 +1,59 @@
+.CV {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cv-container {
+  border: 1px #98a2b3 solid;
+  border-radius: 2rem;
+  margin: 2rem;
+  text-align: left;
+  padding: 0rem 2rem;
+  width: 80%;
+  max-width: 850px;
+}
+
+.cv-container > * {
+  border-bottom: 1px #98a2b3 solid;
+  padding: 2rem 0rem;
+}
+
+.cv-title {
+  font-size: 1.5rem;
+}
+
+.cv-title .lastName {
+  font-weight: 600;
+  padding-left: 0.4rem;
+}
+
+.cv-info {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+
+.row {
+  padding: 0.4rem 0rem;
+  display: flex;
+}
+
+.inner-row {
+  width: 100%;
+  display: flex;
+}
+
+.label {
+  font-weight: bold;
+  width: 100px;
+}
+
+.cv-footer {
+  color: #98a2b3;
+  font-size: 0.9rem;
+  border-bottom: none;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+}

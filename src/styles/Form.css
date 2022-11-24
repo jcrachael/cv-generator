@@ -1,0 +1,103 @@
+form {
+  margin: 0rem auto;
+  padding: 0rem 1rem;
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: 1px #98a2b3 solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 2rem 1rem;
+}
+
+legend {
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-row {
+  text-align: left;
+  display: flex;
+  padding: 1rem 0rem;
+}
+
+.form-control {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0rem 1rem;
+}
+
+label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+input {
+  height: 40px;
+  border-radius: 0.5rem;
+  border: 1px #98a2b3 solid;
+  padding: 0rem 1rem;
+}
+
+button {
+  height: 40px;
+  border-radius: 0.5rem;
+  width: 120px;
+  border: none;
+  align-self: center;
+  background-color: #475467;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button[type="submit"] {
+  border: none;
+  align-self: center;
+  background-color: #475467;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #263041;
+}
+
+.eduDate {
+  width: 47.5%;
+  margin-bottom: 1rem;
+}
+
+.role {
+  margin-bottom: 1rem;
+}
+
+.grey {
+  background-color: #98a2b33d;
+}
+
+.delete-icon {
+  color: red;
+  text-align: end;
+  width: 90%;
+  margin: 0 auto -1rem auto;
+  padding-top: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.3rem;
+  transition: all 0.1s;
+}
+
+.delete-icon:hover {
+  color: darkred;
+}

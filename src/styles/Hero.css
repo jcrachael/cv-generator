@@ -1,0 +1,15 @@
+.hero {
+  text-align: center;
+}
+
+.hero > h1 {
+  padding: 1rem 0;
+}
+
+.hero > p {
+  padding-bottom: 1rem;
+}
+
+.italic {
+  font-style: italic;
+}
